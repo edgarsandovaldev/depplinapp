@@ -1,0 +1,277 @@
+
+<nav class="uk-navbar-container uk-margin" uk-navbar>
+
+
+
+
+
+<!--Menu lateral izquierdo-------------->
+ <div class="uk-navbar-left">
+
+        <ul class="uk-navbar-nav">
+            <li>
+
+            </li>
+            <li class="uk-active" >
+                <a href="#"><span uk-toggle="target: #offcanvas-reveal" uk-icon="icon: menu; ratio: 1.8" ></span></a>
+
+            </li>
+
+
+
+        </ul>
+
+</div>
+<!--Menu lateral izquierdo-------------->
+
+
+
+
+
+
+
+
+
+  <!--Logotipo Centrado-------------->
+  <div class="uk-navbar-center">
+
+      <a class="uk-navbar-item uk-logo" href="#" uk-toggle="target: #offcanvas-overlay">
+        <img src="https://firebasestorage.googleapis.com/v0/b/depplinpublicidad.appspot.com/o/brand%2Flogo-depplin.svg?alt=media&token=da4a62e7-07e0-4b6d-b783-f2626fc23d96" width="200px"  alt="Depplin - Departamento de Publicidad Integral"></a>
+
+  </div>
+<!--Logotipo Centrado-------------->
+
+
+
+
+
+  <div class="uk-navbar-right">
+
+    <!--Herramientas Depplin------------------>
+    <ul class="uk-navbar-nav">
+
+        <li class="uk-active">
+            <a href="#"><span uk-icon="icon: nut; ratio: 1.8" uk-toggle="target: #offcanvas-flip"></span></a>
+        </li>
+        <li></li>
+    </ul>
+
+    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+      <div class="uk-offcanvas-bar">
+
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+          <h3>HERRAMIENTAS</h3>
+          <li><a href="#">Editor Photoshop on Line</a></li>
+          <li><a href="#">Editor Canva</a></li>
+          <li><a href="#">Paleta Colores</a></li>
+          <li><a href="#">Modelos de letras</a></li>
+          <li><a href="#">Convertidor PDFs</a></li>
+          <li><a href="#">Palabras Claves</a></li>
+          <li><a href="#">Link Whatsapp</a></li>
+          <hr class="uk-divider-icon">
+          <li><a href="#">Diseños Plantillas</a></li>
+          <li><a href="#">Organizador de Impresión</a></li>
+
+      </div>
+    </div>
+    <!--Herramientas Depplin------------------>
+
+
+
+</div>
+
+
+
+
+</nav>
+
+
+
+
+<!--Navegacion Secundaria-->
+
+
+<ul class="uk-subnav uk-subnav-pill" uk-margin>
+
+
+  <!--
+  <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-overlay">Productos</button>
+  -->
+
+
+
+    <!-------------------NUESTROS CANALES DE CONTACTO MODAL-------------->
+    <div id="modal-contacto" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+          <button class="uk-modal-close-default" type="button" uk-close></button>
+
+          <h3>NUESTROS CANALES DE CONTACTO</h3>
+          <div uk-grid>
+            <div><span uk-icon="whatsapp"></span></div>
+            <div><span uk-icon="receiver"></span></div>
+            <div><span uk-icon="mail"></span></div>
+
+          </div>
+
+            <hr class="uk-divider-icon">
+            <div uk-grid>
+              <div><span uk-icon="rss"></span></div>
+              <div><span uk-icon="google"></span></div>
+              <div><span uk-icon="instagram"></span></div>
+              <div><span uk-icon="facebook"></span></div>
+              <div><span uk-icon="twitter"></span></div>
+              <div><span uk-icon="linkedin"></span></div>
+            </div>
+
+      </div>
+    </div>
+     <!-------------------NUESTROS CANALES DE CONTACTO MODAL-------------->
+
+     <!-------------------MODAL TARJETAS DE PRESENTACIÓN-------------->
+    <div id="modal-impresiones" class="uk-flex-top" uk-modal>
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+
+          <button class="uk-modal-close-default" type="button" uk-close></button>
+
+
+          <span class="uk-label"> I M P R E S I O N E S</span>
+          <br><br>
+          <div class="uk-child-width-1-3@s uk-grid-small uk-text-center" uk-grid>
+
+            <div>
+                <div class="uk-tile uk-tile-primary uk-padding-small">
+                    <p class="uk-h4">Tarjetas de Presentación</p>
+                </div>
+            </div>
+            <div>
+              <div class="uk-tile uk-tile-primary uk-padding-small">
+                  <p class="uk-h4">Volantes Publicitarios</p>
+              </div>
+          </div>
+          <div>
+            <div class="uk-tile uk-tile-primary uk-padding-small">
+                <p class="uk-h4">Tarjetas de Presentación</p>
+            </div>
+        </div>
+        <div>
+          <div class="uk-tile uk-tile-primary uk-padding-small">
+              <p class="uk-h4">Tarjetas de Presentación</p>
+          </div>
+      </div>
+      <div>
+        <div class="uk-tile uk-tile-primary uk-padding-small">
+            <p class="uk-h4">Tarjetas de Presentación</p>
+        </div>
+    </div>
+    <div>
+      <div class="uk-tile uk-tile-primary uk-padding-small">
+          <p class="uk-h4">Tarjetas de Presentación</p>
+      </div>
+  </div>
+
+        </div>
+
+
+      </div>
+    </div>
+     <!-------------------MODAL TARJETAS DE PRESENTACIÓN-------------->
+
+
+
+</ul>
+
+
+<!--OFF Canvas Productos y Servicios-->
+<div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+      <div class="uk-offcanvas-bar">
+
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+
+          <h3>Productos y Servicios</h3>
+
+          <a href="#modal-impresiones" uk-toggle><span uk-icon="print" uk-toggle></span>&nbsp; IMPRESIONES</a>
+          <br><br>
+
+            <a href="#modal-impresiones" uk-toggle><span uk-icon="tag" uk-toggle></span>&nbsp; MARQUILLAS Y ETIQUETAS</a>
+            <br><br>
+            <a href="#modal-impresiones" uk-toggle><span uk-icon="pencil"></span>&nbsp;LAPICEROS</a>
+            <br><br>
+            <a href="#modal-impresiones" uk-toggle><span uk-icon="bag"></span>&nbsp;BOLSAS</a>
+            <br><br>
+            <a href="#modal-impresiones" uk-toggle><span uk-icon="star"></span>&nbsp;PROMOCIONES</a>
+            <br><br>
+            <a href="#modal-impresiones" uk-toggle><span uk-icon="album"></span>&nbsp;CAJAS</a>
+            <br><br>
+            <a href="#modal-impresiones" uk-toggle><span uk-icon="move"></span>&nbsp;PARAFINADOS</a>
+            <br><br>
+            <a href="#modal-impresiones" uk-toggle><span uk-icon="desktop"></span>&nbsp;DIGITALES</a>
+            <br><br>
+            <hr class="uk-divider-icon" >
+
+            <a href="#"><span uk-icon="icon: triangle-right; ratio: 1.5"></span>&nbsp;PEDIR COTIZACIÓN &nbsp; <span uk-icon="icon: whatsapp; ratio: 1.5"></span></a>
+
+            <hr class="uk-divider-icon">
+
+
+
+            <li class="uk-active uk-navbar-right "><a href="#modal-contacto" uk-toggle><span uk-icon="user"></span>&nbsp;CONTACTO</a>
+            </li>
+
+
+
+      </div>
+  </div>
+
+ <!--OFF Canvas Productos y Servicios-->
+ <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true">
+  <div class="uk-offcanvas-bar">
+
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+      <h3>Departamento de Publicidad Integral</h3>
+      <ul class="uk-nav ">
+        <li class="uk-active">
+          <a routerLink="directorios" routerLinkActive="active" ariaCurrentWhenActive="page">
+            <span uk-icon="list"></span> &nbsp; DIRECTORIOS</a>
+          </li>
+        <li>
+          <a routerLink="/categorias" routerLinkActive="active" ariaCurrentWhenActive="page">
+            <span uk-icon="bolt"></span>Herramientas
+          </a>
+        </li>
+
+        <li><a routerLink="/categorias" routerLinkActive="active" ariaCurrentWhenActive="page"><span uk-icon="database"></span>Nuestros Clientes</a></li>
+        <li><a routerLink="/categorias" routerLinkActive="active" ariaCurrentWhenActive="page"><span uk-icon="image"></span>Galeria de Trabajos</a></li>
+        <li><a routerLink="/categorias" routerLinkActive="active" ariaCurrentWhenActive="page"><span uk-icon="phone"></span>Apps Desarrolladas</a></li>
+        <li><a routerLink="/categorias" routerLinkActive="active" ariaCurrentWhenActive="page"><span uk-icon="world"></span>WEBS Desarrolladas</a></li>
+        <li class="uk-active"><a routerLink="/categorias" routerLinkActive="active" ariaCurrentWhenActive="page"><span uk-icon="menu"></span>COTIZAR</a></li>
+        <hr class="uk-divider-icon">
+        <div uk-grid>
+          <div><span uk-icon="rss"></span></div>
+          <div><span uk-icon="google"></span></div>
+          <div><span uk-icon="instagram"></span></div>
+          <div><span uk-icon="facebook"></span></div>
+          <div><span uk-icon="twitter"></span></div>
+          <div><span uk-icon="linkedin"></span></div>
+      </div>
+
+      <hr class="uk-divider-icon">
+
+
+
+      <li class="uk-active uk-navbar-right "><a href="#modal-contacto" uk-toggle><span uk-icon="user"></span>&nbsp;CONTACTO</a>
+      </li>
+
+
+
+
+    </ul>
+
+
+
+  </div>
+</div>
+

@@ -1,0 +1,74 @@
+<div class="uk-child-width-expand@s" uk-grid>
+  <div class="uk-grid-item-match">
+      <div class="uk-card uk-card-default uk-card-body">
+          <h3>Nombre del Producto</h3>
+          <div class="uk-position-relative uk-light" uk-slideshow>
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="images/photo.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/dark.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="images/size1.jpg" alt="" uk-cover>
+                </li>
+            </ul>
+
+            <div class="uk-position-bottom-center uk-position-small">
+                <ul class="uk-dotnav">
+                    <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+                    <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+                    <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+                </ul>
+            </div>
+
+        </div>
+      </div>
+   </div>
+  <div>
+      <h3>Carácterísticas</h3>
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <div class="uk-card uk-card-default ">
+        <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                <div class="uk-width-expand">
+                    <h3 class="uk-card-title uk-margin-remove-bottom">PRECIO</h3>
+                    <h2>$75.000</h2>
+                </div>
+            </div>
+        </div>
+        <div class="uk-card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="uk-card-footer">
+            <a href="javascript: history.go(-1)" class="uk-button uk-button-text"><span uk-icon="reply"></span>&nbsp; regrezar</a>
+        </div>
+    </div>
+  </div>
+</div>
+<br><br><br><br><br><br>
+
+
+
+<ul class="uk-subnav uk-subnav-pill" uk-margin>
+  <li class="uk-active"><a href="#">CONTACTAR</a></li>
+  <li><a href="#">Item</a></li>
+  <li>
+      <a href="#">More <span uk-icon="icon: triangle-down"></span></a>
+      <div uk-dropdown="mode: click">
+          <ul class="uk-nav uk-dropdown-nav">
+              <li class="uk-active"><a href="#">Active</a></li>
+              <li><a href="#">Item</a></li>
+              <li class="uk-nav-header">Header</li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a href="#">Item</a></li>
+          </ul>
+      </div>
+  </li>
+</ul>
