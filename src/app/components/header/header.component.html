@@ -234,11 +234,17 @@
       <button class="uk-offcanvas-close" type="button" uk-close></button>
 
       <h3>Departamento de Publicidad Integral</h3>
+
+
       <ul class="uk-nav ">
-        <li class="uk-active">
-          <a routerLink="depplin/todos" routerLinkActive="active" ariaCurrentWhenActive="page">
-            <span uk-icon="thumbnails"></span> &nbsp; PRODUCTOS Y SERVICIOS</a>
-          </li>
+
+        <li>
+          <a routerLink="/productosyservicios/todos"></a>
+          <a routerlink="./modules/productosyservicios" >
+            <span uk-icon="thumbnails"></span> &nbsp; PRODUCTOS Y SERVICIOS
+          </a>
+        </li>
+
         <li>
         <li class="uk-active">
           <a routerLink="directorios" routerLinkActive="active" ariaCurrentWhenActive="page">
@@ -257,7 +263,8 @@
         <li class="uk-active"><a routerLink="/categorias" routerLinkActive="active" ariaCurrentWhenActive="page"><span uk-icon="menu"></span>COTIZAR</a></li>
         <hr class="uk-divider-icon">
         <div uk-grid>
-          <div><span uk-icon="rss"></span></div>
+          <div><a routerLink="/productosyservicios"><span uk-icon="rss"></span></a></div>
+
           <div><span uk-icon="google"></span></div>
           <div><span uk-icon="instagram"></span></div>
           <div><span uk-icon="facebook"></span></div>

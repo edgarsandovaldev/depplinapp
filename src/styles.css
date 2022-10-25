@@ -6,3 +6,8 @@
 .colordepplin {
   background-color: blue;
 }
+
+.fondodepplin {
+  background-image: url( 'https://i.pinimg.com/564x/35/13/64/35136433572cb160508aa613254805a5.jpg' );
+  background-position: 100%;
+}
