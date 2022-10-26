@@ -6,6 +6,21 @@ import { BoligrafosdepplinComponent } from './boligrafosdepplin/boligrafosdeppli
 import { AgendasComponent } from './agendas/agendas.component';
 import { TodosComponent } from './todos/todos.component';
 import { ProductosyserviciosRoutingModule } from './productosyservicios-routing.module';
+import { LogosComponent } from './logos/logos.component';
+import { BrochurepdfComponent } from './brochurepdf/brochurepdf.component';
+import { TarjetasComponent } from './tarjetas/tarjetas.component';
+import { VolantesComponent } from './volantes/volantes.component';
+import { CarpetasComponent } from './carpetas/carpetas.component';
+import { RecetariosComponent } from './recetarios/recetarios.component';
+import { TalonariosComponent } from './talonarios/talonarios.component';
+import { BolsasimpresasComponent } from './bolsasimpresas/bolsasimpresas.component';
+import { BolsasdepapelComponent } from './bolsasdepapel/bolsasdepapel.component';
+import { BolsasdeplasticoComponent } from './bolsasdeplastico/bolsasdeplastico.component';
+import { BolsasecologicasComponent } from './bolsasecologicas/bolsasecologicas.component';
+import { BolsasdeboutiqueComponent } from './bolsasdeboutique/bolsasdeboutique.component';
+import { CajasComponent } from './cajas/cajas.component';
+import { MarquillasComponent } from './marquillas/marquillas.component';
+import { EtiquetasComponent } from './etiquetas/etiquetas.component';
 
 
 @NgModule({
@@ -13,7 +28,22 @@ import { ProductosyserviciosRoutingModule } from './productosyservicios-routing.
     BoligrafosparkerComponent,
     BoligrafosdepplinComponent,
     AgendasComponent,
-    TodosComponent
+    TodosComponent,
+    LogosComponent,
+    BrochurepdfComponent,
+    TarjetasComponent,
+    VolantesComponent,
+    CarpetasComponent,
+    RecetariosComponent,
+    TalonariosComponent,
+    BolsasimpresasComponent,
+    BolsasdepapelComponent,
+    BolsasdeplasticoComponent,
+    BolsasecologicasComponent,
+    BolsasdeboutiqueComponent,
+    CajasComponent,
+    MarquillasComponent,
+    EtiquetasComponent
   ],
   imports: [
     CommonModule,

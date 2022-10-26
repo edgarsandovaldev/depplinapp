@@ -18,6 +18,10 @@ const routes: Routes = [
     loadChildren: () => import('./productosyservicios/productosyservicios.module').then( m => m.ProductosyserviciosModule )
   },
   {
+    path: 'agendas',
+    loadChildren: () => import('./productosyservicios/productosyservicios.module').then( m => m.ProductosyserviciosModule )
+  },
+  {
     path: 'boligrafosparker',
     loadChildren: () => import('./productosyservicios/productosyservicios.module').then( m => m.ProductosyserviciosModule )
   },

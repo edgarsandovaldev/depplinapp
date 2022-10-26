@@ -8,6 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { UikitModule } from './uikit/uikit.module';
 import { FooterComponent } from './components/footer/footer.component';
 import { InicioComponent } from './components/inicio/inicio.component';
+import { ProductosdepplinComponent } from './components/productosdepplin/productosdepplin.component';
+
 
 
 
@@ -21,6 +23,8 @@ import { InicioComponent } from './components/inicio/inicio.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    ProductosdepplinComponent,
+
 
 
 
